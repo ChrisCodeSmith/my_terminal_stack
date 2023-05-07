@@ -10,6 +10,7 @@
 * [ZSH autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
 * [tmux](https://github.com/tmux/tmux/wiki)
 * [TPM - Tmux Plugin Manager](https://github.com/tmux-plugins/tpm)
+* [vim-tmux-navigator](https://github.com/christoomey/vim-tmux-navigator)
 * [vim](https://www.vim.org/)
 * [Vundle](https://github.com/VundleVim/Vundle.vim)
 * [Nerd Fonts](https://www.nerdfonts.com/)
@@ -25,6 +26,8 @@ Configs are maintained in the repo.
 - Dl it
 - Unzip and copy it to ~/.fonts
 - Run `fc-cache -fv`
+
+---
 
 ### Commands
 A collection of random useful commands:
@@ -53,3 +56,6 @@ ggpush
 ```
 
 ---
+
+### Additional resources
+- [Awesome Tmux](https://github.com/rothgar/awesome-tmux) - tmux link collection
