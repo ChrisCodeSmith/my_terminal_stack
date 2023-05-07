@@ -1,16 +1,28 @@
-# myzsh
-## install zsh
-sudo apt install zsh
-## install oh my zsh
-```
-sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-```
-## autosuggestions
-```
-git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-plugins=(zsh-autosuggestions)
-```
-## navigate using z
-```
-plugins=(z git python zsh-autosuggestions)
-```
+# my terminal stack
+
+---
+
+## Content
+
+* [Alacritty](https://github.com/alacritty/alacritty)
+* [zsh](https://zsh.sourceforge.io/) - [zsh git repo](https://sourceforge.net/p/zsh/code/ci/master/tree/)
+* [Oh My ZSH](https://ohmyz.sh/)
+* [tmux](https://github.com/tmux/tmux/wiki)
+* [TPM - Tmux Plugin Manager](https://github.com/tmux-plugins/tpm)
+* [vim](https://www.vim.org/)
+* [Vundle](https://github.com/VundleVim/Vundle.vim)
+* [Nerd Fonts](https://www.nerdfonts.com/)
+---
+
+Configs are maintained in the repo.
+
+---
+
+## Instructions:
+
+### Install a Nerd Font:
+- Dl it
+- Unzip and copy it to ~/.fonts
+- Run `fc-cache -fv`
+
+---
